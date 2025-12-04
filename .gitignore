@@ -1,2 +1,49 @@
+# -----------------------------
+# Quarto / Markdown outputs
+# -----------------------------
+*_files/
+*_cache/
+*.html
+*.pdf
+*.docx
+
+# Quarto render artefacts
 /.quarto/
-**/*.quarto_ipynb
+.quarto/
+
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# -----------------------------
+# R
+# -----------------------------
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+.Rapp.history
+
+# knitr / rmarkdown caches
+_cache/
+*.utf8.md
+*.knit.md
+
+# -----------------------------
+# OS-specific files
+# -----------------------------
+.DS_Store
+Thumbs.db
