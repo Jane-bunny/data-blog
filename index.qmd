@@ -1,7 +1,8 @@
 ---
-title: "Python Data Blog"
+title: "Jane's Data Blog"
 listing:
   contents: posts
+  id: data-blog
   feed: true
   sort: "date desc"
   type: default
@@ -11,8 +12,16 @@ listing:
 page-layout: full
 title-block-banner: true
 ---
-Hello World
 
-```{python}
-2**8 + 1
-```
+## Welcome to my data blog. 
+
+::: {#data-blog}
+:::
+
+::: {.column-page-inset}
+![](images/tool-stack.png)
+:::
+
+## About me
+
+I am a data porfessional. 

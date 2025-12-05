@@ -1,18 +1,18 @@
 ---
 title: "About"
-image: profile.jpg
+image: Jane.jpg
 about:
   template: jolla
   links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com
+    - icon: book
+      text: "AuthorPage"
+      href: "https://www.amazon.com/author/janebunny.com"
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://www.linkedin.com/in/janezhang-techlearner/
     - icon: github
       text: Github
-      href: https://github.com
+      href: https://github.com/Jane-bunny
 
 ---
 

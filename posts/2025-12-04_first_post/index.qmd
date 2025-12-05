@@ -2,7 +2,6 @@
 title: "The first real post"
 date: "2025-12-04"
 image: "penguin_plot.png"
-draft: true
 ---
 
 The palmerpenguins dataset is **always** useful! 🐧

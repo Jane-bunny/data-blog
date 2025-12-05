@@ -9,8 +9,50 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Python Data Blog",
+    "title": "Jane’s Data Blog",
     "section": "",
-    "text": "Hello World\n\n2**8 + 1\n\n257\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Dec 4, 2025\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/2025-12-04_first_post/index.html",
+    "href": "posts/2025-12-04_first_post/index.html",
+    "title": "The first real post",
+    "section": "",
+    "text": "The palmerpenguins dataset is always useful! 🐧\n\nfrom palmerpenguins import load_penguins\npenguins = load_penguins()\npenguins\n\n\n\n\n\n\n\n\nspecies\nisland\nbill_length_mm\nbill_depth_mm\nflipper_length_mm\nbody_mass_g\nsex\nyear\n\n\n\n\n0\nAdelie\nTorgersen\n39.1\n18.7\n181.0\n3750.0\nmale\n2007\n\n\n1\nAdelie\nTorgersen\n39.5\n17.4\n186.0\n3800.0\nfemale\n2007\n\n\n2\nAdelie\nTorgersen\n40.3\n18.0\n195.0\n3250.0\nfemale\n2007\n\n\n3\nAdelie\nTorgersen\nNaN\nNaN\nNaN\nNaN\nNaN\n2007\n\n\n4\nAdelie\nTorgersen\n36.7\n19.3\n193.0\n3450.0\nfemale\n2007\n\n\n...\n...\n...\n...\n...\n...\n...\n...\n...\n\n\n339\nChinstrap\nDream\n55.8\n19.8\n207.0\n4000.0\nmale\n2009\n\n\n340\nChinstrap\nDream\n43.5\n18.1\n202.0\n3400.0\nfemale\n2009\n\n\n341\nChinstrap\nDream\n49.6\n18.2\n193.0\n3775.0\nmale\n2009\n\n\n342\nChinstrap\nDream\n50.8\n19.0\n210.0\n4100.0\nmale\n2009\n\n\n343\nChinstrap\nDream\n50.2\n18.7\n198.0\n3775.0\nfemale\n2009\n\n\n\n\n344 rows × 8 columns\n\n\n\n\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\nfig, ax = plt.subplots()\nsns.scatterplot(data=penguins,\n                x=\"bill_length_mm\",\n                y=\"flipper_length_mm\",\n                hue=\"species\",\n                ax=ax)\nax.set_title(\"Penguins: Bill vs Flipper Length\")\n\nText(0.5, 1.0, 'Penguins: Bill vs Flipper Length')\n\n\n\n\n\n\n\n\n\n\nfig.savefig(\"penguin_plot.png\", dpi=150, bbox_inches=\"tight\")"
+  },
+  {
+    "objectID": "side-project.html",
+    "href": "side-project.html",
+    "title": "Jane’s side projects",
+    "section": "",
+    "text": "Except data, I am a creative writer, I write sci-fi stories, modern memoirs."
+  },
+  {
+    "objectID": "side-project.html#data-projects",
+    "href": "side-project.html#data-projects",
+    "title": "Jane’s side projects",
+    "section": "Data projects",
+    "text": "Data projects\n\nJuan on Mars\nA continue of Juan’s story on Mars.\n\n\nDatasets\nA project to choose right dataset."
+  },
+  {
+    "objectID": "side-project.html#creative-projects",
+    "href": "side-project.html#creative-projects",
+    "title": "Jane’s side projects",
+    "section": "Creative projects",
+    "text": "Creative projects\n\nCooking\nI am surely a good cook!"
+  },
+  {
+    "objectID": "index.html#welcome-to-my-data-blog.",
+    "href": "index.html#welcome-to-my-data-blog.",
+    "title": "Jane’s Data Blog",
+    "section": "",
+    "text": "Dec 4, 2025\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Jane’s Data Blog",
+    "section": "About me",
+    "text": "About me\nI am a data porfessional."
   }
 ]

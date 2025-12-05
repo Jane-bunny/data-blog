@@ -1,0 +1,30 @@
+---
+title: "Jane's side projects"
+format:
+  html:
+    page-layout: article
+toc: true
+toc-depth: 3
+---
+
+Except data, I am a creative writer, I write sci-fi stories, modern memoirs. 
+
+::: {.aside}
+A data blog with side-projects? Surely a sci-fi story!
+:::
+
+## Data projects
+
+### Juan on Mars
+
+A continue of Juan's story on Mars. 
+
+### Datasets
+
+A project to choose right dataset.
+
+## Creative projects
+
+### Cooking
+
+I am surely a good cook! 
