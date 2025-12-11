@@ -15,16 +15,24 @@ website:
         href: side-project.qmd
         icon: joystick
     right:
-      - about.qmd
+      - text: "<i class='fa-solid fa-qrcode'></i> About <em>Me</em>"
+        href: about.qmd
       - icon: github
         href: https://github.com/Jane-bunny
       - icon: linkedin
         href: https://www.linkedin.com/in/janezhang-techlearner
+  page-footer: 
+    foreground: rebellion
+    left: "© 2025 Jane Zhang"
+    right: "Built with <a href='https://quarto.org'>Quarto</a>"
 
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      - Minty
+      - brand.yml
+      - custom.scss 
     css: styles.css
+    include-in-header:
+      - text: <script src="https://kit.fontawesome.com/c93529a43e.js" crossorigin="anonymous"></script>
     

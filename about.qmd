@@ -1,10 +1,10 @@
 ---
-title: "About"
+title: "About Me"
 image: Jane.jpg
 about:
   template: jolla
   links:
-    - icon: book
+    - icon: amazon
       text: "AuthorPage"
       href: "https://www.amazon.com/author/janebunny.com"
     - icon: linkedin
@@ -16,4 +16,4 @@ about:
 
 ---
 
-About this blog
+This is Jane Zhang
