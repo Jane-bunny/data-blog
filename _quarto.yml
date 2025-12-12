@@ -4,7 +4,7 @@ project:
 
 website:
   description: "A blog built with Quarto"
-  site-url: https://your-website-url.example.com # you must change this appropriately for RSS feeds to work properly
+  site-url: https://jane-bunny.github.io/data-blog/ # you must change this appropriately for RSS feeds to work properly
   title: "Jane's Data Blog"
   navbar:
     left:
@@ -40,4 +40,3 @@ format:
     css: styles.css
     include-in-header:
       - text: <script src="https://kit.fontawesome.com/c93529a43e.js" crossorigin="anonymous"></script>
-      
