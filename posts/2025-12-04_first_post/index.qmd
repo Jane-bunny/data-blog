@@ -2,7 +2,6 @@
 title: "The first real post"
 date: "2025-12-04"
 author: Jane Zhang
-description: "A quick look at the palmerpenguins dataset: bill length vs flipper length by species."
 image: "penguin_plot.png"
 open-graph: 
     description: "Scatterplot of bill length vs flipper length, colored by penguin species."

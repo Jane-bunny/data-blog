@@ -3,10 +3,13 @@ project:
   output-dir: docs
 
 website:
-  description: "A blog built with Quarto"
+  title: "A blog built with Quarto"
   site-url: https://jane-bunny.github.io/data-blog/ # you must change this appropriately for RSS feeds to work properly
-  open-graph: true
-  title: "Jane's Data Blog"
+  image: images/tool-stack.png
+  open-graph: 
+    title: "Jane's Data Blog"
+    description: "A blog built with Quarto"
+    image: images/tool-stack.png
   navbar:
     left:
       - text: "Data Blog"
