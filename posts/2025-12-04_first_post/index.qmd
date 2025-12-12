@@ -5,6 +5,8 @@ author: Jane Zhang
 description: "A quick look at the palmerpenguins dataset: bill length vs flipper length by species."
 image: "penguin_plot.png"
 image-alt: "Scatterplot of bill length vs flipper length, colored by penguin species."
+resources:
+  - penguin_plot.png
 ---
 <span style='color:{{<brand color chart-primary>}}'> The palmerpenguins dataset is **always** useful! 🐧</span>
 
