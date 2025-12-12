@@ -29,10 +29,15 @@ website:
 format:
   html:
     theme:
-      - Minty
-      - brand.yml
-      - custom.scss 
+      light:
+        - flatly
+        - brand.yml
+        - custom.scss
+      dark:
+        - darkly
+        - brand.yml
+        - custom.scss
     css: styles.css
     include-in-header:
       - text: <script src="https://kit.fontawesome.com/c93529a43e.js" crossorigin="anonymous"></script>
-    
+      

@@ -21,8 +21,9 @@
 
 
 
+
 <p><span style="color:#FA8A5B"> The palmerpenguins dataset is <strong>always</strong> useful! 🐧</span></p>
-<div id="e25b27c0" class="cell" data-execution_count="1">
+<div id="8f724d96" class="cell" data-execution_count="1">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">from</span> palmerpenguins <span class="im" style="color: #00769E;
@@ -32,7 +33,7 @@ font-style: inherit;">import</span> load_penguins</span>
 background-color: null;
 font-style: inherit;">=</span> load_penguins()</span>
 <span id="cb1-3">penguins</span></code></pre></div></div>
-<div class="cell-output cell-output-display" data-execution_count="4">
+<div class="cell-output cell-output-display" data-execution_count="1">
 <div>
 
 
@@ -179,7 +180,7 @@ font-style: inherit;">=</span> load_penguins()</span>
 </div>
 </div>
 </div>
-<div id="e614fc30" class="cell" data-execution_count="2">
+<div id="221352fe" class="cell" data-execution_count="2">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">import</span> seaborn <span class="im" style="color: #00769E;
@@ -218,7 +219,7 @@ font-style: inherit;">=</span>ax)</span>
 <span id="cb2-10">ax.set_title(<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Penguins: Bill vs Flipper Length"</span>)</span></code></pre></div></div>
-<div class="cell-output cell-output-display" data-execution_count="5">
+<div class="cell-output cell-output-display" data-execution_count="2">
 <pre><code>Text(0.5, 1.0, 'Penguins: Bill vs Flipper Length')</code></pre>
 </div>
 <div class="cell-output cell-output-display">
@@ -229,7 +230,7 @@ font-style: inherit;">"Penguins: Bill vs Flipper Length"</span>)</span></code></
 </div>
 </div>
 </div>
-<div id="f8f24792" class="cell" data-execution_count="3">
+<div id="a07735b3" class="cell" data-execution_count="3">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1">fig.savefig(<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"penguin_plot.png"</span>, dpi<span class="op" style="color: #5E5E5E;
