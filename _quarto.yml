@@ -5,6 +5,7 @@ project:
 website:
   description: "A blog built with Quarto"
   site-url: https://jane-bunny.github.io/data-blog/ # you must change this appropriately for RSS feeds to work properly
+  open-graph: true
   title: "Jane's Data Blog"
   navbar:
     left:
