@@ -1,0 +1,32 @@
+---
+title: "Writing"
+description: "Published fiction, manuscripts, and creative work by Jane Zhang."
+---
+
+::: {.section-intro}
+Stories are another way I explore the world. Here, I bring together science fiction, memoirs, and reflections on life and change.
+:::
+
+## Published work {#published-work}
+
+::: {.portfolio-entry}
+[Published science-fiction novel]{.work-type}
+
+### Juan's World
+
+Book details, a synopsis, and publication information will be added here.
+
+[Visit my author page →](https://www.amazon.com/author/janebunny.com){.text-link}
+:::
+
+## Manuscripts & work in progress
+
+This space will introduce completed manuscripts and ongoing creative work, with publication status clearly identified for each piece.
+
+::: {.editorial-note}
+**To add:** Manuscript titles, short descriptions, and whether each is complete, in progress, or published.
+:::
+
+## Earlier creative notes
+
+My [side-project notes](side-project.qmd) preserve an early look at my interests, including the idea of continuing Juan's story on Mars and other creative projects.

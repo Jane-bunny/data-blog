@@ -1,46 +1,50 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "**/*.qmd"
+    - "!docs/**"
+    - "!_site/**"
 
 website:
-  title: "A blog built with Quarto"
-  site-url: https://jane-bunny.github.io/data-blog/ # you must change this appropriately for RSS feeds to work properly
-  image: images/tool-stack.png
+  title: "Jane Zhang"
+  description: "Data science, creative writing, and independent learning at the intersection of AI and energy."
+  site-url: https://jane-bunny.github.io/data-blog/
   open-graph: 
-    title: "Jane's Data Blog"
-    description: "A blog built with Quarto"
-    image: images/tool-stack.png
+    title: "Jane Zhang"
+    description: "Data science, creative writing, and independent learning at the intersection of AI and energy."
   navbar:
+    background: light
+    collapse-below: lg
     left:
-      - text: "Data Blog"
-        href: index.qmd
-        icon: house
-      - text: "Side Projects"
-        href: side-project.qmd
-        icon: joystick
-    right:
-      - text: "<i class='fa-solid fa-qrcode'></i> About <em>Me</em>"
+      - text: "About"
         href: about.qmd
-      - icon: github
-        href: https://github.com/Jane-bunny
-      - icon: linkedin
-        href: https://www.linkedin.com/in/janezhang-techlearner
+      - text: "Data Projects"
+        href: data-projects.qmd
+      - text: "Writing"
+        href: writing.qmd
+      - text: "AI & Energy"
+        href: ai-energy.qmd
   page-footer: 
-    foreground: rebellion
-    left: "© 2025 Jane Zhang"
-    right: "Built with <a href='https://quarto.org'>Quarto</a>"
+    left: "© 2026 Jane Zhang"
+    right:
+      - text: "LinkedIn"
+        href: https://www.linkedin.com/in/janezhang-techlearner/
+      - text: "GitHub"
+        href: https://github.com/Jane-bunny
+      # When Jane confirms a public email address, add Contact here with an
+      # envelope icon and a mailto: destination. No email link is active yet.
 
 format:
   html:
+    filters:
+      - filters/figure-alt.lua
     theme:
-      light:
-        - flatly
-        - brand.yml
-        - custom.scss
-      dark:
-        - darkly
-        - brand.yml
-        - custom.scss
+      - flatly
+      - brand.yml
+      - custom.scss
     css: styles.css
-    include-in-header:
-      - text: <script src="https://kit.fontawesome.com/c93529a43e.js" crossorigin="anonymous"></script>
+    lang: en
+    title-block-banner: false
+    toc: false
+    smooth-scroll: false

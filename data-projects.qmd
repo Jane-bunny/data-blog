@@ -1,0 +1,34 @@
+---
+title: "Data Projects"
+description: "Applied data science, scientific research, and analytical projects."
+---
+
+::: {.section-intro}
+A growing portfolio of applied data science, machine learning, and scientific research.
+:::
+
+Each project will have its own page, with room for the question, approach, visualisations, results, limitations, and links to original materials.
+
+::: {.portfolio-entry}
+[MSc research]{.work-type}
+
+## Physics-Informed Machine Learning in Space Plasma Physics
+
+A dedicated page for my MSc research. The summary and supporting research materials are still to be added.
+
+[View the research project →](projects/msc-space-plasma.qmd){.text-link}
+:::
+
+::: {.portfolio-entry}
+[From my data notebook · 4 December 2025]{.work-type}
+
+## Exploring the Palmer penguins dataset
+
+My original data-blog post, with Python code and a scatterplot exploring the dataset.
+
+[Read the original post →](posts/2025-12-04_first_post/index.qmd){.text-link}
+:::
+
+::: {.editorial-note}
+More technical projects will be added as they are ready. This portfolio is a work in progress.
+:::

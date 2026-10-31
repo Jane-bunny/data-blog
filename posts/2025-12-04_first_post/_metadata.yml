@@ -1,0 +1,2 @@
+# Describes the existing chart without re-running its Python analysis.
+fig-alt: "Scatterplot of penguin bill length against flipper length, with points coloured by species."

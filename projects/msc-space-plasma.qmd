@@ -1,0 +1,35 @@
+---
+title: "Physics-Informed Machine Learning in Space Plasma Physics"
+description: "MSc research by Jane Zhang. Project summary and research materials to follow."
+toc: true
+---
+
+[MSc research · Project details in preparation]{.work-type}
+
+This page will present my MSc research. The title is provided here; the project description, methods, findings, and supporting materials are still to be added.
+
+## Research question
+
+::: {.editorial-note}
+**To add:** The scientific question, context, and scope of the thesis.
+:::
+
+## Approach & methods
+
+::: {.editorial-note}
+**To add:** The data, physical assumptions, machine-learning methods, and evaluation approach actually used in the research.
+:::
+
+## Results & limitations
+
+::: {.editorial-note}
+**To add:** Verified findings, visualisations, and limitations drawn from the thesis. No results are presented yet.
+:::
+
+## Research materials & references
+
+::: {.editorial-note}
+**To add:** Thesis date and institution, a public thesis or repository link where available, code, and original references.
+:::
+
+[← All data projects](../data-projects.qmd)

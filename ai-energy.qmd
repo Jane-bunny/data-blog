@@ -1,0 +1,56 @@
+---
+title: "AI & Energy"
+description: "Independent learning and evidence-based inquiry into AI infrastructure and electricity systems."
+toc: true
+---
+
+::: {.section-intro}
+How are AI and energy shaping each other—and what might that mean for ordinary people?
+:::
+
+This is an ongoing independent learning and research initiative, exploring AI infrastructure, electricity systems, regulatory developments, and their implications for business and society.
+
+The work will develop through accessible explanations and a curated watch on developments across the US, EU, and China. Articles and updates are still in preparation.
+
+::: {.category-links}
+[AI–Energy Explained](#explained){.text-link}
+
+[AI–Energy Watch](#watch){.text-link}
+:::
+
+## AI–Energy Explained {#explained}
+
+Accessible educational and analytical articles for readers without a technical background. Questions to explore include:
+
+- How can we understand the connections between AI infrastructure and electricity systems?
+- What should we look for when reading an AI and energy headline?
+- How can we compare claims and check their sources?
+- What might these changes mean for our work, communities, and everyday choices?
+
+::: {.editorial-note}
+**Articles in preparation.** Each article will link to original sources and make its scope, evidence, and uncertainties clear.
+:::
+
+## AI–Energy Watch {#watch}
+
+Curated, dated developments across three regions, with links to original sources and an explanation of why each item matters.
+
+### United States
+
+Planned coverage: AI development, electricity infrastructure, and the decisions shaping their growth.
+
+### European Union
+
+Planned coverage: AI policy, energy transitions, and their implications for daily life.
+
+### China
+
+Planned coverage: AI development, energy infrastructure, and the choices connecting them.
+
+::: {.editorial-note}
+**Watch updates to come.** Future entries will include a region, the event date, the publication or update date, original source links, and a distinction between reported facts and my interpretation.
+:::
+
+<!-- Future articles can live in ai-energy/explained/ and ai-energy/watch/.
+     Link them under these headings as they are written. Research notes and a
+     possible monthly newsletter can build on this later; no signup is active. -->

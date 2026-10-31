@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Data science, creative writing, and independent AI–energy research.">
 
-<title>Jane’s Data Blog</title>
+<title>Jane Zhang — Data, writing &amp; ideas – Jane Zhang</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -44,9 +43,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-5931b5b3c5773593b8e6ad45f9aca27a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-c1ffb054094cddd5bbba9ce247ef1fb9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-5931b5b3c5773593b8e6ad45f9aca27a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-5d2c4d70b07c6066274ed4f2c23a191c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-5d2c4d70b07c6066274ed4f2c23a191c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-5d2c4d70b07c6066274ed4f2c23a191c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,241 +73,27 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-data-blog .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-data-blog'] = new List('listing-data-blog', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-<script src="https://kit.fontawesome.com/c93529a43e.js" crossorigin="anonymous"></script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
-<link rel="alternate" type="application/rss+xml" title="Jane's Data Blog" href="index.xml" data-external="1"></head>
+<meta property="og:title" content="Jane Zhang">
+<meta property="og:description" content="Data science, creative writing, and independent learning at the intersection of AI and energy.">
+<meta property="og:image" content="https://jane-bunny.github.io/data-blog/images/jane-astronaut.png">
+<meta property="og:site_name" content="Jane Zhang">
+<meta property="og:image:alt" content="Jane Zhang smiling beside an astronaut suit exhibit.">
+<meta property="og:image:height" content="1920">
+<meta property="og:image:width" content="1440">
+</head>
 
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
-    const toggleBodyColorMode = (bsSheetEl) => {
-      const mode = bsSheetEl.getAttribute("data-mode");
-      const bodyEl = window.document.querySelector("body");
-      if (mode === "dark") {
-        bodyEl.classList.add("quarto-dark");
-        bodyEl.classList.remove("quarto-light");
-      } else {
-        bodyEl.classList.add("quarto-light");
-        bodyEl.classList.remove("quarto-dark");
-      }
-    }
-    const toggleBodyColorPrimary = () => {
-      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
-      if (bsSheetEl) {
-        toggleBodyColorMode(bsSheetEl);
-      }
-    }
-    const setColorSchemeToggle = (alternate) => {
-      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-      for (let i=0; i < toggles.length; i++) {
-        const toggle = toggles[i];
-        if (toggle) {
-          if (alternate) {
-            toggle.classList.add("alternate");
-          } else {
-            toggle.classList.remove("alternate");
-          }
-        }
-      }
-    };
-    const toggleColorMode = (alternate) => {
-      // Switch the stylesheets
-      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
-      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-      manageTransitions('#quarto-margin-sidebar .nav-link', false);
-      if (alternate) {
-        // note: dark is layered on light, we don't disable primary!
-        enableStylesheet(alternateStylesheets);
-        for (const sheetNode of alternateStylesheets) {
-          if (sheetNode.id === "quarto-bootstrap") {
-            toggleBodyColorMode(sheetNode);
-          }
-        }
-      } else {
-        disableStylesheet(alternateStylesheets);
-        enableStylesheet(primaryStylesheets)
-        toggleBodyColorPrimary();
-      }
-      manageTransitions('#quarto-margin-sidebar .nav-link', true);
-      // Switch the toggles
-      setColorSchemeToggle(alternate)
-      // Hack to workaround the fact that safari doesn't
-      // properly recolor the scrollbar when toggling (#1455)
-      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-        manageTransitions("body", false);
-        window.scrollTo(0, 1);
-        setTimeout(() => {
-          window.scrollTo(0, 0);
-          manageTransitions("body", true);
-        }, 40);
-      }
-    }
-    const disableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        stylesheet.rel = 'disabled-stylesheet';
-      }
-    }
-    const enableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
-          stylesheet.rel = 'stylesheet';
-        }
-      }
-    }
-    const manageTransitions = (selector, allowTransitions) => {
-      const els = window.document.querySelectorAll(selector);
-      for (let i=0; i < els.length; i++) {
-        const el = els[i];
-        if (allowTransitions) {
-          el.classList.remove('notransition');
-        } else {
-          el.classList.add('notransition');
-        }
-      }
-    }
-    const isFileUrl = () => {
-      return window.location.protocol === 'file:';
-    }
-    const hasAlternateSentinel = () => {
-      let styleSentinel = getColorSchemeSentinel();
-      if (styleSentinel !== null) {
-        return styleSentinel === "alternate";
-      } else {
-        return false;
-      }
-    }
-    const setStyleSentinel = (alternate) => {
-      const value = alternate ? "alternate" : "default";
-      if (!isFileUrl()) {
-        window.localStorage.setItem("quarto-color-scheme", value);
-      } else {
-        localAlternateSentinel = value;
-      }
-    }
-    const getColorSchemeSentinel = () => {
-      if (!isFileUrl()) {
-        const storageValue = window.localStorage.getItem("quarto-color-scheme");
-        return storageValue != null ? storageValue : localAlternateSentinel;
-      } else {
-        return localAlternateSentinel;
-      }
-    }
-    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-      let newTheme = '';
-      if(authorPrefersDark) {
-        newTheme = isAlternate ? baseTheme : alternateTheme;
-      } else {
-        newTheme = isAlternate ? alternateTheme : baseTheme;
-      }
-      const changeGiscusTheme = () => {
-        // From: https://github.com/giscus/giscus/issues/336
-        const sendMessage = (message) => {
-          const iframe = document.querySelector('iframe.giscus-frame');
-          if (!iframe) return;
-          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-        }
-        sendMessage({
-          setConfig: {
-            theme: newTheme
-          }
-        });
-      }
-      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-      if (isGiscussLoaded) {
-        changeGiscusTheme();
-      }
-    };
-    const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
-      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-    // Dark / light mode switch
-    window.quartoToggleColorScheme = () => {
-      // Read the current dark / light value
-      let toAlternate = !hasAlternateSentinel();
-      toggleColorMode(toAlternate);
-      setStyleSentinel(toAlternate);
-      toggleGiscusIfUsed(toAlternate, darkModeDefault);
-      window.dispatchEvent(new Event('resize'));
-    };
-    // Switch to dark mode if need be
-    if (hasAlternateSentinel()) {
-      toggleColorMode(true);
-    } else {
-      toggleColorMode(false);
-    }
-  </script>
+<body class="nav-fixed home-page quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Jane’s Data Blog</span>
+    <span class="navbar-title">Jane Zhang</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -318,130 +103,143 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> <i class="bi bi-house" role="img">
-</i> 
-<span class="menu-text">Data Blog</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./side-project.html"> <i class="bi bi-joystick" role="img">
-</i> 
-<span class="menu-text">Side Projects</span></a>
-  </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
-<span class="menu-text"><i class="fa-solid fa-qrcode"></i> About <em>Me</em></span></a>
+<span class="menu-text">About</span></a>
   </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/Jane-bunny"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="./data-projects.html"> 
+<span class="menu-text">Data Projects</span></a>
   </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/in/janezhang-techlearner"> <i class="bi bi-linkedin" role="img">
-</i> 
-<span class="menu-text"></span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="./writing.html"> 
+<span class="menu-text">Writing</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./ai-energy.html"> 
+<span class="menu-text">AI &amp; Energy</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Jane’s Data Blog</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page-left">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block page-columns page-full column-page-left" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
-
-
-<section id="welcome-to-my-data-blog." class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="welcome-to-my-data-blog.">Welcome to my data blog.</h2>
-<div id="listing-data-blog" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1764802800000" data-listing-file-modified-sort="1765546538981" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="95">
-<div class="thumbnail"><a href="./posts/2025-12-04_first_post/index.html" class="no-external">
-
-<img loading="lazy" src="./posts/2025-12-04_first_post/penguin_plot.png" class="thumbnail-image" alt="Scatterplot of bill length vs flipper length, colored by penguin species.">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2025-12-04_first_post/index.html" class="no-external">The first real post</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/2025-12-04_first_post/index.html" class="no-external">
-<p>A quick look at the palmerpenguins dataset: bill length vs flipper length by species.</p>
-</a></div>
+<!-- A. Edit the name, heading and introduction here. -->
+<div class="home-hero">
+<div class="intro-copy">
+<p><span class="eyebrow">Jane Zhang</span></p>
+<section id="curiosity-evidence-and-imagination." class="level1 unlisted unnumbered">
+<h1 class="unlisted unnumbered">Curiosity, evidence, and imagination.</h1>
+<p>I’m Jane Zhang, with a background in business and data science, and a passion for creative writing. I’m interested not only in what technology makes possible, but also in its implications for business, society, and people’s lives.</p>
+<p>Curiosity leads me to questions, and imagination helps me explore possibilities. Whether analysing data, investigating complex systems, or writing fiction, I enjoy challenging assumptions and exploring new perspectives. In analytical work, I believe ideas should be tested against evidence, while recognising uncertainty and remaining open to revising conclusions.</p>
+<p><a href="./about.html" class="text-link">A little more about me →</a></p>
+</section>
 </div>
-<div class="metadata">
-<a href="./posts/2025-12-04_first_post/index.html" class="no-external">
-<div class="listing-date">
-Dec 4, 2025
+<!-- Original uploaded photograph; the responsive crop is set in styles.css. -->
+<figure class="hero-portrait figure">
+  <div class="portrait-frame">
+    <img class="portrait-photo figure-img" src="images/jane-astronaut.png" alt="Jane Zhang smiling beside an astronaut suit exhibit." width="1440" height="1920" decoding="async" fetchpriority="high">
+  </div>
+</figure>
 </div>
-<div class="listing-author">
-Jane Zhang
-</div>
-</a>
+<!-- B. Working introduction: refine the wording together. -->
+<div id="purpose" class="home-section purpose-section">
+<section id="why-this-website-exists" class="level2 purpose-heading">
+<h2 class="anchored" data-anchor-id="why-this-website-exists">Why this website exists</h2>
+</section>
+<div class="purpose-copy">
+<p>I created this space not only to share my work, but also to invite others to explore questions alongside me.</p>
+<p>Through data projects, creative writing, and independent research, I share ideas, methods, discoveries, and reflections, including the assumptions I question and what remains uncertain. Rather than offering definitive answers to every complex issue, I hope to encourage thoughtful exploration, meaningful discussion, and independent judgment.</p>
 </div>
 </div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-<div class="column-page-inset">
-<p><img src="images/tool-stack.png" class="img-fluid"></p>
+<!-- C. Each link leads to a dedicated, editable section page. -->
+<div id="explore" class="home-section">
+<section id="explore-my-work" class="level2">
+<h2 class="anchored" data-anchor-id="explore-my-work">Explore my work</h2>
+<p>Three ways I explore questions—through data, storytelling, and the systems shaping our world.</p>
+<div class="work-areas">
+<section id="data-projects" class="level3 work-area">
+<h3 class="anchored" data-anchor-id="data-projects">01 — Data Projects</h3>
+<p>Explore how I approach analytical questions, from choosing methods and interpreting results to examining limitations and what I would improve.</p>
+<p><a href="./data-projects.html" class="text-link">Explore data projects →</a></p>
+</section>
+<section id="writing" class="level3 work-area">
+<h3 class="anchored" data-anchor-id="writing">02 — Writing</h3>
+<p>Published fiction, completed manuscripts, and creative explorations of human experience in an increasingly technology-shaped world.</p>
+<p><a href="./writing.html" class="text-link">Explore my writing →</a></p>
+</section>
+<section id="ai-energy" class="level3 work-area">
+<h3 class="anchored" data-anchor-id="ai-energy">03 — AI &amp; Energy</h3>
+<p>Explore how AI and energy systems affect each other, and what this means for society. Evidence-based explanations, emerging challenges, and developments across the US, EU, and China.</p>
+<p><a href="./ai-energy.html" class="text-link">Explore AI &amp; Energy →</a></p>
+</section>
 </div>
 </section>
-<section id="about-me" class="level2">
-<h2 class="anchored" data-anchor-id="about-me">About me</h2>
-<p>I am a data porfessional.</p>
-
-
-
+</div>
+<!-- D. Only feature real work; add details and original sources when available. -->
+<section id="selected-work" class="level2 home-section">
+<h2 class="anchored" data-anchor-id="selected-work">Selected Work</h2>
+<p>A selection of completed work and ongoing investigations.</p>
+<div class="selected-list">
+<div class="selected-item">
+<p><span class="work-type">MSc Research</span></p>
+<section id="physics-informed-machine-learning-in-space-plasma-physics" class="level3">
+<h3 class="anchored" data-anchor-id="physics-informed-machine-learning-in-space-plasma-physics">Physics-Informed Machine Learning in Space Plasma Physics</h3>
+<p>My master’s dissertation investigates the application of machine learning and physics-informed approaches to space plasma data from the Solar Orbiter mission.</p>
 </section>
+<p><a href="./projects/msc-space-plasma.html" class="text-link"><em>View research project →</em></a></p>
+</div>
+<div class="selected-item">
+<p><span class="work-type">Published Fiction</span></p>
+<section id="juans-world" class="level3">
+<h3 class="anchored" data-anchor-id="juans-world">Juan’s World</h3>
+<p>A science-fiction novel exploring imagined futures, technological change, and the choices people make within them.</p>
+</section>
+<p><a href="./writing.html#published-work" class="text-link"><em>Discover the book →</em></a></p>
+</div>
+<div class="selected-item">
+<p><span class="work-type">Independent Research · Ongoing</span></p>
+<section id="ai-energy-and-everyday-life" class="level3">
+<h3 class="anchored" data-anchor-id="ai-energy-and-everyday-life">AI &amp; Energy: Beyond the Headlines</h3>
+<p>An independent investigation into the relationship between AI infrastructure, electricity systems, and society, examining developments, challenges, and regulatory responses across the US, EU, and China.</p>
+</section>
+<p><a href="./ai-energy.html" class="text-link"><em>Explore the research →</em></a></p>
+</div>
+</div>
+</section>
+<!-- E. Existing public profiles provide contact; no invented address or form. -->
+<div id="connect" class="home-section contact-section">
+<div class="contact-copy">
+<p><span class="eyebrow">Contact &amp; collaboration</span></p>
+<section id="lets-connect" class="level2">
+<h2 class="anchored" data-anchor-id="lets-connect">Let’s connect</h2>
+<p>I’m always interested in exchanging ideas, exploring new perspectives, and connecting with people who share an interest in data science, technology, and creative writing.</p>
+<p>Whether you have a question, an idea, or a potential collaboration in mind, I’d be happy to hear from you.</p>
+</section>
+</div>
+<div class="contact-links">
+<p><a href="https://www.linkedin.com/in/janezhang-techlearner/" class="text-link">Connect on LinkedIn</a></p>
+<p><a href="https://github.com/Jane-bunny" class="text-link">Explore my GitHub</a></p>
+</div>
+</div>
+
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    // Ensure there is a toggle, if there isn't float one in the top right
-    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-      const a = window.document.createElement('a');
-      a.classList.add('top-right');
-      a.classList.add('quarto-color-scheme-toggle');
-      a.href = "";
-      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-      const i = window.document.createElement("i");
-      i.classList.add('bi');
-      a.appendChild(i);
-      window.document.body.appendChild(a);
-    }
-    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -513,7 +311,7 @@ Jane Zhang
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/your-website-url\.example\.com");
+        var filterRegex = new RegExp("https:\/\/jane-bunny\.github\.io\/data-blog\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -844,14 +642,25 @@ Jane Zhang
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2025 Jane Zhang</p>
+<p>© 2026 Jane Zhang</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
     <div class="nav-footer-right">
-<p>Built with <a href="https://quarto.org">Quarto</a></p>
-</div>
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://www.linkedin.com/in/janezhang-techlearner/">
+<p>LinkedIn</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://github.com/Jane-bunny">
+<p>GitHub</p>
+</a>
+  </li>  
+</ul>
+    </div>
   </div>
 </footer>
 

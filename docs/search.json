@@ -1,17 +1,171 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Me",
+    "objectID": "writing.html",
+    "href": "writing.html",
+    "title": "Writing",
     "section": "",
-    "text": "This is Jane Zhang"
+    "text": "Stories are another way I explore the world. Here, I bring together science fiction, memoirs, and reflections on life and change."
+  },
+  {
+    "objectID": "writing.html#published-work",
+    "href": "writing.html#published-work",
+    "title": "Writing",
+    "section": "Published work",
+    "text": "Published work\n\nPublished science-fiction novel\n\nJuan’s World\nBook details, a synopsis, and publication information will be added here.\nVisit my author page →"
+  },
+  {
+    "objectID": "writing.html#manuscripts-work-in-progress",
+    "href": "writing.html#manuscripts-work-in-progress",
+    "title": "Writing",
+    "section": "Manuscripts & work in progress",
+    "text": "Manuscripts & work in progress\nThis space will introduce completed manuscripts and ongoing creative work, with publication status clearly identified for each piece.\n\nTo add: Manuscript titles, short descriptions, and whether each is complete, in progress, or published."
+  },
+  {
+    "objectID": "writing.html#earlier-creative-notes",
+    "href": "writing.html#earlier-creative-notes",
+    "title": "Writing",
+    "section": "Earlier creative notes",
+    "text": "Earlier creative notes\nMy side-project notes preserve an early look at my interests, including the idea of continuing Juan’s story on Mars and other creative projects."
+  },
+  {
+    "objectID": "projects/msc-space-plasma.html",
+    "href": "projects/msc-space-plasma.html",
+    "title": "Physics-Informed Machine Learning in Space Plasma Physics",
+    "section": "",
+    "text": "MSc research · Project details in preparation\nThis page will present my MSc research. The title is provided here; the project description, methods, findings, and supporting materials are still to be added."
+  },
+  {
+    "objectID": "projects/msc-space-plasma.html#research-question",
+    "href": "projects/msc-space-plasma.html#research-question",
+    "title": "Physics-Informed Machine Learning in Space Plasma Physics",
+    "section": "Research question",
+    "text": "Research question\n\nTo add: The scientific question, context, and scope of the thesis."
+  },
+  {
+    "objectID": "projects/msc-space-plasma.html#approach-methods",
+    "href": "projects/msc-space-plasma.html#approach-methods",
+    "title": "Physics-Informed Machine Learning in Space Plasma Physics",
+    "section": "Approach & methods",
+    "text": "Approach & methods\n\nTo add: The data, physical assumptions, machine-learning methods, and evaluation approach actually used in the research."
+  },
+  {
+    "objectID": "projects/msc-space-plasma.html#results-limitations",
+    "href": "projects/msc-space-plasma.html#results-limitations",
+    "title": "Physics-Informed Machine Learning in Space Plasma Physics",
+    "section": "Results & limitations",
+    "text": "Results & limitations\n\nTo add: Verified findings, visualisations, and limitations drawn from the thesis. No results are presented yet."
+  },
+  {
+    "objectID": "projects/msc-space-plasma.html#research-materials-references",
+    "href": "projects/msc-space-plasma.html#research-materials-references",
+    "title": "Physics-Informed Machine Learning in Space Plasma Physics",
+    "section": "Research materials & references",
+    "text": "Research materials & references\n\nTo add: Thesis date and institution, a public thesis or repository link where available, code, and original references.\n\n← All data projects"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Jane’s Data Blog",
+    "title": "Curiosity, evidence, and imagination.",
     "section": "",
-    "text": "A quick look at the palmerpenguins dataset: bill length vs flipper length by species.\n\n\n\n\n\nDec 4, 2025\n\n\nJane Zhang\n\n\n\n\n\nNo matching items"
+    "text": "Jane Zhang\n\n\nI’m Jane Zhang, with a background in business and data science, and a passion for creative writing. I’m interested not only in what technology makes possible, but also in its implications for business, society, and people’s lives.\nCuriosity leads me to questions, and imagination helps me explore possibilities. Whether analysing data, investigating complex systems, or writing fiction, I enjoy challenging assumptions and exploring new perspectives. In analytical work, I believe ideas should be tested against evidence, while recognising uncertainty and remaining open to revising conclusions.\nA little more about me →"
+  },
+  {
+    "objectID": "index.html#why-this-website-exists",
+    "href": "index.html#why-this-website-exists",
+    "title": "Curiosity, evidence, and imagination.",
+    "section": "Why this website exists",
+    "text": "Why this website exists"
+  },
+  {
+    "objectID": "index.html#explore-my-work",
+    "href": "index.html#explore-my-work",
+    "title": "Curiosity, evidence, and imagination.",
+    "section": "Explore my work",
+    "text": "Explore my work\nThree ways I explore questions—through data, storytelling, and the systems shaping our world.\n\n\n01 — Data Projects\nExplore how I approach analytical questions, from choosing methods and interpreting results to examining limitations and what I would improve.\nExplore data projects →\n\n\n02 — Writing\nPublished fiction, completed manuscripts, and creative explorations of human experience in an increasingly technology-shaped world.\nExplore my writing →\n\n\n03 — AI & Energy\nExplore how AI and energy systems affect each other, and what this means for society. Evidence-based explanations, emerging challenges, and developments across the US, EU, and China.\nExplore AI & Energy →"
+  },
+  {
+    "objectID": "index.html#selected-work",
+    "href": "index.html#selected-work",
+    "title": "Curiosity, evidence, and imagination.",
+    "section": "Selected Work",
+    "text": "Selected Work\nA selection of completed work and ongoing investigations.\n\n\nMSc Research\n\nPhysics-Informed Machine Learning in Space Plasma Physics\nMy master’s dissertation investigates the application of machine learning and physics-informed approaches to space plasma data from the Solar Orbiter mission.\n\nView research project →\n\n\nPublished Fiction\n\nJuan’s World\nA science-fiction novel exploring imagined futures, technological change, and the choices people make within them.\n\nDiscover the book →\n\n\nIndependent Research · Ongoing\n\nAI & Energy: Beyond the Headlines\nAn independent investigation into the relationship between AI infrastructure, electricity systems, and society, examining developments, challenges, and regulatory responses across the US, EU, and China.\n\nExplore the research →"
+  },
+  {
+    "objectID": "index.html#lets-connect",
+    "href": "index.html#lets-connect",
+    "title": "Curiosity, evidence, and imagination.",
+    "section": "Let’s connect",
+    "text": "Let’s connect\nI’m always interested in exchanging ideas, exploring new perspectives, and connecting with people who share an interest in data science, technology, and creative writing.\nWhether you have a question, an idea, or a potential collaboration in mind, I’d be happy to hear from you."
+  },
+  {
+    "objectID": "ai-energy.html",
+    "href": "ai-energy.html",
+    "title": "AI & Energy",
+    "section": "",
+    "text": "How are AI and energy shaping each other—and what might that mean for ordinary people?\nThis is an ongoing independent learning and research initiative, exploring AI infrastructure, electricity systems, regulatory developments, and their implications for business and society.\nThe work will develop through accessible explanations and a curated watch on developments across the US, EU, and China. Articles and updates are still in preparation."
+  },
+  {
+    "objectID": "ai-energy.html#explained",
+    "href": "ai-energy.html#explained",
+    "title": "AI & Energy",
+    "section": "AI–Energy Explained",
+    "text": "AI–Energy Explained\nAccessible educational and analytical articles for readers without a technical background. Questions to explore include:\n\nHow can we understand the connections between AI infrastructure and electricity systems?\nWhat should we look for when reading an AI and energy headline?\nHow can we compare claims and check their sources?\nWhat might these changes mean for our work, communities, and everyday choices?\n\n\nArticles in preparation. Each article will link to original sources and make its scope, evidence, and uncertainties clear."
+  },
+  {
+    "objectID": "ai-energy.html#watch",
+    "href": "ai-energy.html#watch",
+    "title": "AI & Energy",
+    "section": "AI–Energy Watch",
+    "text": "AI–Energy Watch\nCurated, dated developments across three regions, with links to original sources and an explanation of why each item matters.\n\nUnited States\nPlanned coverage: AI development, electricity infrastructure, and the decisions shaping their growth.\n\n\nEuropean Union\nPlanned coverage: AI policy, energy transitions, and their implications for daily life.\n\n\nChina\nPlanned coverage: AI development, energy infrastructure, and the choices connecting them.\n\nWatch updates to come. Future entries will include a region, the event date, the publication or update date, original source links, and a distinction between reported facts and my interpretation."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I’m Jane Zhang, a data professional and creative writer with an interest in how we understand and communicate a changing world.\nThis website brings together my work in data science, fiction, and independent learning at the intersection of AI and energy. I want to share useful knowledge, explore ideas carefully, and make room for both analytical and creative work."
+  },
+  {
+    "objectID": "about.html#background-qualifications",
+    "href": "about.html#background-qualifications",
+    "title": "About",
+    "section": "Background & qualifications",
+    "text": "Background & qualifications\nMy MSc research is titled Physics-Informed Machine Learning in Space Plasma Physics. Its project page will provide a home for the summary, methods, and research materials.\n\nProfile in progress. Details of my qualifications, professional background, and experience will be added here in my own words."
+  },
+  {
+    "objectID": "about.html#interests-perspective",
+    "href": "about.html#interests-perspective",
+    "title": "About",
+    "section": "Interests & perspective",
+    "text": "Interests & perspective\nI’m interested in applied data science, machine learning, scientific research, and creative writing—including science fiction and memoirs.\nMy AI–energy work is an independent learning and exploratory research initiative. I plan to follow developments across the US, EU, and China, and write accessible explanations that distinguish evidence, interpretation, and open questions."
+  },
+  {
+    "objectID": "about.html#find-me-elsewhere",
+    "href": "about.html#find-me-elsewhere",
+    "title": "About",
+    "section": "Find me elsewhere",
+    "text": "Find me elsewhere\n\nLinkedIn — connect with me\nGitHub — explore my work\nAuthor page — books and writing"
+  },
+  {
+    "objectID": "data-projects.html",
+    "href": "data-projects.html",
+    "title": "Data Projects",
+    "section": "",
+    "text": "A growing portfolio of applied data science, machine learning, and scientific research.\nEach project will have its own page, with room for the question, approach, visualisations, results, limitations, and links to original materials."
+  },
+  {
+    "objectID": "data-projects.html#physics-informed-machine-learning-in-space-plasma-physics",
+    "href": "data-projects.html#physics-informed-machine-learning-in-space-plasma-physics",
+    "title": "Data Projects",
+    "section": "Physics-Informed Machine Learning in Space Plasma Physics",
+    "text": "Physics-Informed Machine Learning in Space Plasma Physics\nA dedicated page for my MSc research. The summary and supporting research materials are still to be added.\nView the research project →"
+  },
+  {
+    "objectID": "data-projects.html#exploring-the-palmer-penguins-dataset",
+    "href": "data-projects.html#exploring-the-palmer-penguins-dataset",
+    "title": "Data Projects",
+    "section": "Exploring the Palmer penguins dataset",
+    "text": "Exploring the Palmer penguins dataset\nMy original data-blog post, with Python code and a scatterplot exploring the dataset.\nRead the original post →"
   },
   {
     "objectID": "posts/2025-12-04_first_post/index.html",
@@ -40,19 +194,5 @@
     "title": "Jane’s side projects",
     "section": "Creative projects",
     "text": "Creative projects\n\nCooking\nI am surely a good cook!"
-  },
-  {
-    "objectID": "index.html#welcome-to-my-data-blog.",
-    "href": "index.html#welcome-to-my-data-blog.",
-    "title": "Jane’s Data Blog",
-    "section": "",
-    "text": "A quick look at the palmerpenguins dataset: bill length vs flipper length by species.\n\n\n\n\n\nDec 4, 2025\n\n\nJane Zhang\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
-    "title": "Jane’s Data Blog",
-    "section": "About me",
-    "text": "About me\nI am a data porfessional."
   }
 ]

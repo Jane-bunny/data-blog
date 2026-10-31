@@ -1,21 +1,31 @@
+# Shared palette. Legacy names keep existing post shortcodes working.
 color:
   palette:
-    neutral: "#F9F7F1" 
-    graph-primary: '#30CED1'
-    plot-primary: '#E0BE36'
-    chart-primary: '#FA8A5B'
-    story-primary: '#EB526F'
-    other-primary: '#D8F794'
-  background: neutral
+    ivory: "#F8F5EF"
+    beige: "#E8DED0"
+    charcoal: "#302B27"
+    taupe: "#74614F"
+    sand: "#D2C4B2"
+    graph-primary: "#74614F"
+    plot-primary: "#74614F"
+    chart-primary: "#74614F"
+    story-primary: "#74614F"
+    other-primary: "#E8DED0"
+  background: ivory
+  foreground: charcoal
+  primary: taupe
+  secondary: beige
 
+# System fonts keep the site fast and avoid external font requests.
 typography:
-  base: Karla
+  base:
+    family: Arial
+    size: 17px
+    line-height: 1.7
   headings:
-    family: Futura
+    family: Georgia
     weight: 400
-    color: purple
-
-defaults:
-  bootstrap:
-    defaults:
-      footer-bg: "whitesmoke"
+    color: charcoal
+  link:
+    color: taupe
+    decoration: underline

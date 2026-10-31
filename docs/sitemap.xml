@@ -1,19 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://your-website-url.example.com/about.html</loc>
-    <lastmod>2025-12-11T11:39:03.089Z</lastmod>
+    <loc>https://jane-bunny.github.io/data-blog/writing.html</loc>
+    <lastmod>2026-10-31T10:49:49.737Z</lastmod>
   </url>
   <url>
-    <loc>https://your-website-url.example.com/index.html</loc>
-    <lastmod>2025-12-05T14:04:11.666Z</lastmod>
+    <loc>https://jane-bunny.github.io/data-blog/projects/msc-space-plasma.html</loc>
+    <lastmod>2026-10-31T10:49:52.315Z</lastmod>
   </url>
   <url>
-    <loc>https://your-website-url.example.com/posts/2025-12-04_first_post/index.html</loc>
-    <lastmod>2025-12-12T13:35:38.981Z</lastmod>
+    <loc>https://jane-bunny.github.io/data-blog/index.html</loc>
+    <lastmod>2026-10-31T14:27:26.306Z</lastmod>
   </url>
   <url>
-    <loc>https://your-website-url.example.com/side-project.html</loc>
+    <loc>https://jane-bunny.github.io/data-blog/ai-energy.html</loc>
+    <lastmod>2026-10-31T10:49:50.174Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jane-bunny.github.io/data-blog/about.html</loc>
+    <lastmod>2026-10-31T10:49:49.311Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jane-bunny.github.io/data-blog/data-projects.html</loc>
+    <lastmod>2026-10-31T10:49:50.667Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jane-bunny.github.io/data-blog/posts/2025-12-04_first_post/index.html</loc>
+    <lastmod>2026-10-31T10:56:23.395Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jane-bunny.github.io/data-blog/side-project.html</loc>
     <lastmod>2025-12-05T11:37:16.759Z</lastmod>
   </url>
 </urlset>
